@@ -1,0 +1,200 @@
+/* FILEPATH: /C:/Users/ankit/OneDrive/Desktop/Rate web/style.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background color for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0653e2;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+/* Style the logo */
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Style the section */
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1448px;
+  margin: 62px auto;
+  padding: 32px;
+  background-color: #23b6d4;
+}
+
+/* Style the text */
+section .hero-text {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+  margin-left: 295px;
+  margin-bottom: -39px; /* Remove the right margin */
+  flex: 1;
+  animation: my-animation 24s linear infinite;
+  position: relative;
+}
+
+/* Style the image */
+section .hero-image {
+  text-align: right;
+  flex: 1;
+  text-align: right;
+  flex: 1;
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+
+/* Style the image within the section */
+section .hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the main section */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style the product box */
+.product-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+/* Style each product */
+.product {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+}
+
+/* Style the product image */
+.product img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Style the product title */
+.product h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style the product price */
+.product p {
+  font-size: 14px;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 767px) {
+  /* Adjust padding for the navbar */
+  .navbar {
+    padding: 10px;
+  }
+
+  /* Adjust font size for the logo */
+  .logo a {
+    font-size: 20px;
+  }
+
+  /* Adjust margin and font size for the hero text */
+  section .hero-text {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  /* Adjust width and height for the hero image */
+  section .hero-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Adjust font size for the product title */
+  .product h3 {
+    font-size: 14px;
+  }
+
+  /* Adjust font size for the product price */
+  .product p {
+    font-size: 12px;
+  }
+}
+
+/* Responsive styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust padding for the navbar */
+  .navbar {
+    padding: 20px;
+  }
+
+  /* Adjust font size for the logo */
+  .logo a {
+    font-size: 22px;
+  }
+
+  /* Adjust margin and font size for the hero text */
+  section .hero-text {
+    margin-left: 150px;
+    font-size: 22px;
+  }
+
+  /* Adjust width and height for the hero image */
+  section .hero-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Adjust font size for the product title */
+  .product h3 {
+    font-size: 15px;
+  }
+
+  /* Adjust font size for the product price */
+  .product p {
+    font-size: 13px;
+  }
+}

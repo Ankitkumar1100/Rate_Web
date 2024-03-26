@@ -1,0 +1,79 @@
+/* FILEPATH: /C:/Users/ankit/OneDrive/Desktop/Rate web/about.css */
+
+body {
+  background-color: #080808;
+}
+
+.container {
+  background-color: rgb(47, 182, 235);
+  padding: 20px;
+}
+
+h1,
+p {
+  color: black;
+}
+
+.bt {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box {
+  background-color: #1d80d1;
+  padding: 20px;
+  margin: 20px 0;
+  font-size: large;
+  border-radius: 2px;
+  border: 2px solid #000000;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+}
+
+.myDiv {
+  text-align: center;
+}
+
+
+/* FILEPATH: /C:/Users/ankit/OneDrive/Desktop/Rate web/about.css */
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .box {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: medium;
+  }
+  
+  .text {
+    font-size: 20px;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .box {
+    padding: 15px;
+    margin: 15px 0;
+    font-size: large;
+  }
+  
+  .text {
+    font-size: 25px;
+  }
+}
